@@ -1,5 +1,5 @@
 public class HelloTest {
     public static void main(String[] args) {
-        System.out.println("Hello from Jenkins Java Job!");
+        System.out.println("Hello from Jenkins Java Job v3!");
     }
 }
