@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Demo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #ff9800;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #e68900;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 DevOps Deployment Demo</h1>
+</header>
+
+<div class="container">
+    <h2>Hello Aadit 👋</h2>
+    <p>This page is deployed using Jenkins / Ansible practice.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+</div>
+
+<footer>
+    <p>Made for testing CI/CD</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Deployment working successfully! 🎉");
+    }
+</script>
+
+</body>
+</html>
